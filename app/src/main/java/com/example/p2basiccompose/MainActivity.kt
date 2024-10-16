@@ -59,6 +59,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             contentDescription =null,
             modifier = Modifier.padding(top = 40.dp).size(250.dp)
         )
+        Text(text = "nama",)
     }
 
 }

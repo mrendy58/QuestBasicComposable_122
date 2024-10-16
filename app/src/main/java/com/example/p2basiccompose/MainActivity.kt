@@ -62,7 +62,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
         Text(text = "nama",
             modifier = Modifier.padding(top=20.dp))
-        Text(text = "Muhamad Rendy Maulana Bakti",color = Color.RED,)
+        Text(text = "Muhamad Rendy Maulana Bakti", color = Color.Red,
+            style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold) )
     }
 
 }

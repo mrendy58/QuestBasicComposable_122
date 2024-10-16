@@ -61,6 +61,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
         Text(text = "nama",
             modifier = Modifier.padding(top=20.dp))
+        Text(text = "Muhamad Rendy Maulana Bakti",)
     }
 
 }

@@ -56,7 +56,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Image(painter = painterResource(
             id = R.drawable.umylogo
         ),
-
+            contentDescription =null,
+            modifier = Modifier.padding(top = 40.dp).size(250.dp)
+        )
     }
 
 }

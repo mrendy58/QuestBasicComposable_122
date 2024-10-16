@@ -1,6 +1,6 @@
 package com.example.p2basiccompose
 
-import android.graphics.Color
+import androidx.compose.ui.graphics.Color
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -25,6 +25,7 @@ import com.example.p2basiccompose.ui.theme.P2BasicComposeTheme
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size
 import androidx.compose.ui.unit.dp
+
 
 
 class MainActivity : ComponentActivity() {
@@ -63,7 +64,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "nama",
             modifier = Modifier.padding(top=20.dp))
         Text(text = "Muhamad Rendy Maulana Bakti", color = Color.Red,
-            style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold) )
+            style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold))
     }
 
 }
